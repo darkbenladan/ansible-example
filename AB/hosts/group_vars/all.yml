@@ -15,7 +15,7 @@ tomcat:
     name: ab
   temp_folder: /tmp
 maven_artifact:
-      artifactory_url: https://artifactory.skillbox/artifactory
+      artifactory_url: https://artifactory/artifactory
       username: testuser
       repository_name: test-local
       dest: ./

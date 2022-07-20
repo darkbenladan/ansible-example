@@ -15,7 +15,7 @@
 
 - name: downloading AppD rpm
   get_url:
-    url: "http://artifactory.skillbox:8081/artifactory/appdynamics-local/x86_64/appdynamics-machine-agent-4.5.14.2293.x86_64.rpm"
+    url: "http://artifactory:8081/artifactory/appdynamics-local/x86_64/appdynamics-machine-agent-4.5.14.2293.x86_64.rpm"
     url_username: "{{ maven_artifact.username }}"
     url_password: "{{ maven_artifact.password }}"
     dest: "/tmp/"
